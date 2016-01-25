@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Virtualenv
+venv/
+
+# IDE setup
+.idea/
+
 # Distribution / packaging
 .Python
 env/
