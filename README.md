@@ -26,6 +26,6 @@ To use this in your Django project:
 
 - Install superstatic, either with pip or by adding it to your `requirements.txt`.
 - Add `materiality.superstatic` to your `INSTALLED_APPS`. Make sure to add it *before* `django.contrib.staticfiles`.
-- Add `SUPERSTATIC_IGNORE_FILE = path/to/ignore_patterns_file` to your `settings.py`.  That file should contain
+- Add `SUPERSTATIC_IGNORE_FILE = 'path/to/ignore_patterns_file'` to your `settings.py`.  That file should contain
   glob patters, one per line, as if passed to the `--ignore` flag. Blank lines and comment lines (beginning with `#`)
   are ignored.

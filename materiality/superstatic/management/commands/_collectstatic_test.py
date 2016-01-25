@@ -19,6 +19,8 @@ from django.utils.six import StringIO
 from materiality.superstatic.management.commands.collectstatic import Command
 
 
+# Note that this module name starts with an underscore so that Django doesn't interpret it as a command.
+
 
 @contextmanager
 def temporary_dir():
