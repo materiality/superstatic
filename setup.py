@@ -14,7 +14,7 @@ setup(
     'Django>=1.7'
   ],
   test_suite='materiality.superstatic.management.commands._collectstatic_test',
-  version = '0.1',
+  version = '0.1.1',
   description = 'Improved production deployment of static files in Django.',
   author = 'Benjy Weinberger',
   author_email = 'benjyw@gmail.com',
